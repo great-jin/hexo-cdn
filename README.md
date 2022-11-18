@@ -1,1 +1,1 @@
-## The repository for hexo source cdn.
+## The repository for hexo resource cdn.
