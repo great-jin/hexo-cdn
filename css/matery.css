@@ -241,7 +241,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right,  #72C1F2 30%, #0380C2 100%);
     opacity: 0.8;
 }
 
@@ -2136,3 +2136,30 @@ p.search-result-summary{
     width: 100%;
     overflow: hidden;
  }
+
+ 
+::-webkit-scrollbar {
+    /* 高宽分别对应横竖滚动条的尺寸 */
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(239, 240, 243);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(163, 194, 241);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(122, 171, 245);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(163, 194, 241);
+    border-radius: 10px;
+}
